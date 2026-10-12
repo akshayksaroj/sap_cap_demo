@@ -1,0 +1,21 @@
+<mvc:View controllerName="com.akshayksaroj.learnings.jsondatacreation.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+    <content>
+    <VBox >
+
+    <HBox >
+    <Label id="_IDGenLabel1" text="NAME : " class="sapUiSmallMargin" ></Label>
+    <Input id="_IDGenInput" value="{emp>/Name}" ></Input>
+    </HBox>
+
+    <HBox >
+    <Label id="_IDGenLabel2" text="LEARNING : " ></Label>
+    <Input id="_IDGenInput1" value="{emp>/Learning}" ></Input>
+    </HBox>
+
+    </VBox>
+    </content>
+    </Page>
+</mvc:View>
